@@ -62,7 +62,7 @@
     var updateFn = function() {
         updateCurrentSongs(getCursor(), buttonElement);
     };
-    window.setInterval(updateFn, 3000);
+    window.setInterval(updateFn, 30000);
     window.setTimeout(updateFn, 1000);
 })();
 
