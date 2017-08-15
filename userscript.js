@@ -31,7 +31,7 @@
     function createTrackDlButton(track) {
         var dwnldButton = document.createElement("a");
         dwnldButton.innerHTML = track.title;
-        dwnldButton.setAttribute("download", track.title);
+        dwnldButton.setAttribute("download", track.title + ".mp3");
         dwnldButton.setAttribute("href", track.streamUrl);
         dwnldButton.setAttribute("class", "display__time__total");
         dwnldButton.setAttribute("style", "align-self:center;width:auto;");
