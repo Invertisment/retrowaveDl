@@ -34,7 +34,7 @@
         dwnldButton.setAttribute("download", track.title + ".mp3");
         dwnldButton.setAttribute("href", track.streamUrl);
         dwnldButton.setAttribute("class", "display__time__total");
-        dwnldButton.setAttribute("style", "align-self:center;width:auto;");
+        dwnldButton.setAttribute("style", "align-self:center;width:auto;text-decoration:none;");
         return dwnldButton;
     }
 
@@ -65,7 +65,6 @@
     window.setInterval(updateFn, 30000);
     window.setTimeout(updateFn, 1000);
 })();
-
 
 
 
