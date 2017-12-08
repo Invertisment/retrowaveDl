@@ -4,6 +4,7 @@
 // @version      0.1
 // @description  Offline dl buttons for songs from site.
 // @author       vvwccgz4lh
+// @match        https://retrowave.ru/
 // @match        http://retrowave.ru/
 // @grant        none
 // ==/UserScript==
@@ -51,7 +52,7 @@
                 fillHtmlElement(htmlElement, json(xmlHttp.responseText).body.tracks);
             }
         };
-        xmlHttp.open("GET", "http://retrowave.ru/api/v1/tracks" +
+        xmlHttp.open("GET", window.location.protocol + "//retrowave.ru/api/v1/tracks" +
                      "?cursor=" + cursor +
                      "&limit=3",
                      true);
