@@ -6,10 +6,9 @@
 // @author       vvwccgz4lh
 // @match        https://retrowave.ru/
 // @match        http://retrowave.ru/
+// @run-at       document-start
 // @grant        none
 // ==/UserScript==
-
-// Notes: For best initialization use 'document-start' script placement in tampermonkey settings
 
 (function() {
   'use strict';
