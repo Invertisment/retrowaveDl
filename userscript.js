@@ -46,7 +46,6 @@
     var element = document.createElement("div");
     element.setAttribute("class", "display dl-titles-container");
     element.setAttribute("style", "display:flex;flex-direction:column;margin-top:55px;");
-    // :first-child { color: rebeccapurple }; :nth-child(2) { color: red }
     var parent = document.querySelector(".theme__container");
     parent.appendChild(element);
     return element;
